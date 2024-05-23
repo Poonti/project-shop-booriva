@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.header-container{
+    width: 1440px;
+    height: 103px;
+    background-color: blue;
+}
+
+.container-menu{
+    height: 40%;
+    background-color: chartreuse;
+}
+
+.contact{
+    width: 355px;
+    height: 30px;
+    display: flex;
+}
+
+.adres{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.phone{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.amenu{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 14.63px;
+    color:#FDA3C4;
+    ;
+
+}
+
+
