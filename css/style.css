@@ -1,7 +1,15 @@
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
 *{
     margin: 0;
     padding: 0;
     text-decoration:none;
+    list-style-type:none;
 }
 
 body{
@@ -9,21 +17,28 @@ body{
     justify-content: center;
 }
 
-.header-container{
+header{
     width: 1440px;
     height: 103px;
-    background-color: blue;
 }
+
+/* .header-container{
+    width: 1440px;
+    height: 103px;
+} */
 
 .container-menu{
     height: 40%;
-    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contact{
     width: 355px;
     height: 30px;
     display: flex;
+    margin: 13px 0px;
+
 }
 
 .adres{
@@ -51,6 +66,60 @@ body{
     color:#FDA3C4;
     ;
 
+}
+
+.logo{
+    margin: 10px 0px;
+}
+
+.searc{
+    width: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.searc input{
+    margin: 0px 5px;
+    border: 0px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.men-min{
+    width: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px 0px;
+}
+
+hr{
+    margin: 26px 0px;
+    color: #FDA3C4;
+}
+/* --------------------------------------------------- */
+
+
+.men{
+    display: flex;
+    justify-content: space-between;
+    margin: 78px 0px 0px 0px;
+}
+
+.mens{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    font-size: 19.5px;
+    color:#1F1F1F;
+    ;
+
+}
+
+.mens:hover{
+    color:#FDA3C4;
 }
 
 
