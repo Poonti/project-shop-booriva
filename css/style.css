@@ -17,15 +17,14 @@ body{
     justify-content: center;
 }
 
-header{
-    width: 1440px;
-    height: 103px;
+.container{
+    width: 1143px;
 }
 
-/* .header-container{
-    width: 1440px;
+
+.header-container{
     height: 103px;
-} */
+}
 
 .container-menu{
     height: 40%;
@@ -114,12 +113,28 @@ hr{
     font-weight: 600;
     font-size: 19.5px;
     color:#1F1F1F;
-    ;
-
 }
 
 .mens:hover{
     color:#FDA3C4;
 }
 
+/* ------------------ */
 
+.category-foto{
+    height: 656px;
+    background-color: blue;
+    display: flex;
+}
+
+.block-foto1{
+    width: 50%;
+}
+
+.block-foto2{
+    width: 50%;
+}
+
+.photo{
+    margin: 10px;
+}
