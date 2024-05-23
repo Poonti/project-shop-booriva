@@ -122,9 +122,9 @@ hr{
 /* ------------------ */
 
 .category-foto{
-    height: 656px;
-    background-color: blue;
+    height: 658px;
     display: flex;
+    justify-content: space-between;
 }
 
 .block-foto1{
@@ -133,8 +133,27 @@ hr{
 
 .block-foto2{
     width: 50%;
+    margin: 0px 17px;
 }
 
-.photo{
-    margin: 10px;
+.foto{
+    width: 563px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.foto2{
+    width: 563px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 10px 0px;
+}
+
+.pf{
+    transition: 1s;
+}
+
+.pf:hover{
+    transform: scale(1.1);
 }
