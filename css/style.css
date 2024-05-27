@@ -108,10 +108,11 @@ hr{
 }
 
 .mens{
-    font-family: Montserrat;
     font-size: 16px;
-    font-weight: 600;
     font-size: 19.5px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     color:#1F1F1F;
 }
 
@@ -156,4 +157,35 @@ hr{
 
 .pf:hover{
     transform: scale(1.1);
+}
+
+.hider{
+    height: 247px;
+    background-color:#FDA3C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.hider a,p{
+    font-size: 12px;
+    color: #fff;
+    margin: 15px 0px;
+}
+
+@font-face {
+    font-family: Sunday Best [rus by aLiNcE];
+    src: url(/fonts/sundaybestrusbyalince.otf);
+}
+
+.hider h2{
+    font-family: Sunday Best [rus by aLiNcE];
+    font-size: 15px;
+    color: #F40000;
+}
+
+.logo{
+    width: 96px;
 }
